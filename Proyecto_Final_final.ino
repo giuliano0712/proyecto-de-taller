@@ -61,12 +61,7 @@ void loop() {
   // Aplicar el movimiento actual del motor
   actualizarMovimiento();
    
-    Potencia();// configurar la potencia suministrada a cada motor trasero
-
-  // Aplicar el movimiento actual del motor
-
- 
-
+  
   // Aplicar la dirección actual
   direccionServo.write(direccionActual);
   
